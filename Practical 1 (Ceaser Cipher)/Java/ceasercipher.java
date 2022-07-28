@@ -151,7 +151,7 @@ public class ceasercipher
         putInFile("output.txt",str);
         
         //calling the decrypting method (It doesnt need to be put in any file due to it is available in input file)
-        String str1 = decrypt("output.txt", 7);
+        String str1 = decrypt("output.txt", key);
        System.out.println("The Data after implementing the decryption  :- "+ str1);
     }
 }
